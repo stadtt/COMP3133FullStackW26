@@ -11,7 +11,7 @@ app.use(express.json());
 // const DB_USER_NAME = ''
 // const DB_PASSWORD = '' 
 // const CLUSTER_ID = ''
-const DB_CONNECTION = `mongodb+srv://haishaffaq_db_user:mongosh@cluster0.tyglb6s.mongodb.net/?appName=Cluster0`
+const DB_CONNECTION = `mongodb+srv://---------@cluster0.tyglb6s.mongodb.net/?appName=Cluster0`
 
 async function connectToMongoDB(connectionString = DB_CONNECTION) {
   await mongoose.connect(connectionString);
