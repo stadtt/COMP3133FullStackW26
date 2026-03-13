@@ -1,10 +1,9 @@
 import { Customer } from "./customer";
 
-let customer = new Customer("John", "Smith");
+let customer = new Customer("John", "Smith", 30);
 customer.greeter();
 
-
-
+console.log("Age: " + customer.getAge());
 
 
 

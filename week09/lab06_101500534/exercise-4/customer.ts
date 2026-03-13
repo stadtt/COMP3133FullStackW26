@@ -18,9 +18,6 @@ export class Customer {
 
 }
 
-let customer = new Customer("John", "Smith", 30);
-customer.greeter();
-console.log("Age: " + customer.getAge());
 
 
 
